@@ -1,0 +1,628 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.marketplace:student-marketplace >-----------------
+[INFO] Building student-marketplace 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.0:clean (default-clean) @ student-marketplace ---
+[INFO] Deleting C:\Users\shivakumar\Downloads\campusmarket\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ student-marketplace ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ student-marketplace ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 47 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/config/SecurityConfig.java:[33,33] variable jwtAuthFilter not initialized in the default constructor
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/config/SecurityConfig.java:[34,42] variable userDetailsService not initialized in the default constructor
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtAuthFilter.java:[43,13] cannot find symbol
+  symbol:   variable log
+  location: class com.marketplace.security.JwtAuthFilter
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/UserDetailsServiceImpl.java:[26,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/UserDetailsServiceImpl.java:[27,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/UserDetailsServiceImpl.java:[28,66] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[61,13] cannot find symbol
+  symbol:   variable log
+  location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[63,13] cannot find symbol
+  symbol:   variable log
+  location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[65,13] cannot find symbol
+  symbol:   variable log
+  location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[67,13] cannot find symbol
+  symbol:   variable log
+  location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[26,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[30,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[31,30] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[32,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[33,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[34,36] cannot find symbol
+  symbol:   method getUniversity()
+  location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[39,60] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[41,36] cannot find symbol
+  symbol:   method builder()
+  location: class com.marketplace.dto.AuthDTO.AuthResponse
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[44,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[45,27] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[46,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[47,33] cannot find symbol
+  symbol:   method getUniversity()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[48,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[49,31] cannot find symbol
+  symbol:   method isVerified()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[50,29] cannot find symbol
+  symbol:   method getRating()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[56,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.marketplace.dto.AuthDTO.LoginRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[56,84] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.marketplace.dto.AuthDTO.LoginRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[60,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.marketplace.dto.AuthDTO.LoginRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[63,36] cannot find symbol
+  symbol:   method builder()
+  location: class com.marketplace.dto.AuthDTO.AuthResponse
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[66,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[67,27] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[68,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[69,33] cannot find symbol
+  symbol:   method getUniversity()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[70,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[71,31] cannot find symbol
+  symbol:   method isVerified()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[72,29] cannot find symbol
+  symbol:   method getRating()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[80,43] cannot find symbol
+  symbol:   method builder()
+  location: class com.marketplace.dto.UserDTO
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[81,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[82,27] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[83,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[84,33] cannot find symbol
+  symbol:   method getUniversity()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[85,29] cannot find symbol
+  symbol:   method getRating()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[86,31] cannot find symbol
+  symbol:   method isVerified()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[87,32] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[87,62] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[58,31] cannot find symbol
+  symbol:   method getViewCount()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[68,43] cannot find symbol
+  symbol:   method getImages()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[79,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[80,31] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[81,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[82,34] cannot find symbol
+  symbol:   method getBuyPrice()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[83,40] cannot find symbol
+  symbol:   method getRentPriceDaily()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[84,41] cannot find symbol
+  symbol:   method getRentPriceWeekly()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[85,42] cannot find symbol
+  symbol:   method getRentPriceMonthly()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[86,42] cannot find symbol
+  symbol:   method isAvailableForRent()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[87,42] cannot find symbol
+  symbol:   method isAvailableForSale()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[88,34] cannot find symbol
+  symbol:   method getCategory()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[89,35] cannot find symbol
+  symbol:   method getCondition()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[89,68] cannot find symbol
+  symbol:   method getCondition()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[91,30] cannot find symbol
+  symbol:   method getTags()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[92,34] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[105,18] cannot find symbol
+  symbol:   method getSeller()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[109,30] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[110,36] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[111,33] cannot find symbol
+  symbol:   method getBuyPrice()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[112,39] cannot find symbol
+  symbol:   method getRentPriceDaily()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[113,40] cannot find symbol
+  symbol:   method getRentPriceWeekly()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[114,41] cannot find symbol
+  symbol:   method getRentPriceMonthly()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[115,41] cannot find symbol
+  symbol:   method isAvailableForRent()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[116,41] cannot find symbol
+  symbol:   method isAvailableForSale()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[117,33] cannot find symbol
+  symbol:   method getCategory()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[118,20] cannot find symbol
+  symbol:   method getCondition()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[118,70] cannot find symbol
+  symbol:   method getCondition()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[119,20] cannot find symbol
+  symbol:   method getImages()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[119,64] cannot find symbol
+  symbol:   method getImages()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[120,20] cannot find symbol
+  symbol:   method getTags()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[120,60] cannot find symbol
+  symbol:   method getTags()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[121,20] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[121,68] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[131,18] cannot find symbol
+  symbol:   method getSeller()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[135,13] cannot find symbol
+  symbol:   method setStatus(com.marketplace.entity.Item.Status)
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[147,27] cannot find symbol
+  symbol:   method getSeller()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[148,32] cannot find symbol
+  symbol:   method builder()
+  location: class com.marketplace.dto.ItemDTO.Response
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[149,25] cannot find symbol
+  symbol:   method getId()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[150,28] cannot find symbol
+  symbol:   method getTitle()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[151,34] cannot find symbol
+  symbol:   method getDescription()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[152,31] cannot find symbol
+  symbol:   method getBuyPrice()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[153,37] cannot find symbol
+  symbol:   method getRentPriceDaily()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[154,38] cannot find symbol
+  symbol:   method getRentPriceWeekly()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[155,39] cannot find symbol
+  symbol:   method getRentPriceMonthly()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[156,39] cannot find symbol
+  symbol:   method isAvailableForRent()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[157,39] cannot find symbol
+  symbol:   method isAvailableForSale()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[158,31] cannot find symbol
+  symbol:   method getCategory()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[159,32] cannot find symbol
+  symbol:   method getCondition()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[160,29] cannot find symbol
+  symbol:   method getImages()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[161,27] cannot find symbol
+  symbol:   method getTags()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[162,31] cannot find symbol
+  symbol:   method getLocation()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[163,32] cannot find symbol
+  symbol:   method getViewCount()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[164,36] cannot find symbol
+  symbol:   method getWishlistCount()
+  location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[165,31] cannot find symbol
+  symbol:   method isFeatured()
+  location: variable item of type com.marketplace.entity.Item
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.834 s
+[INFO] Finished at: 2026-03-27T14:12:13+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project student-marketplace: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/config/SecurityConfig.java:[33,33] variable jwtAuthFilter not initialized in the default constructor
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/config/SecurityConfig.java:[34,42] variable userDetailsService not initialized in the default constructor
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtAuthFilter.java:[43,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.marketplace.security.JwtAuthFilter
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/UserDetailsServiceImpl.java:[26,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/UserDetailsServiceImpl.java:[27,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/UserDetailsServiceImpl.java:[28,66] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[61,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[63,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[65,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/security/JwtUtils.java:[67,13] cannot find symbol
+[ERROR]   symbol:   variable log
+[ERROR]   location: class com.marketplace.security.JwtUtils
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[26,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[30,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[31,30] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[32,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[33,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[34,36] cannot find symbol
+[ERROR]   symbol:   method getUniversity()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.RegisterRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[39,60] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[41,36] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.marketplace.dto.AuthDTO.AuthResponse
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[44,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[45,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[46,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[47,33] cannot find symbol
+[ERROR]   symbol:   method getUniversity()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[48,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[49,31] cannot find symbol
+[ERROR]   symbol:   method isVerified()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[50,29] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[56,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.LoginRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[56,84] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.LoginRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[60,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.marketplace.dto.AuthDTO.LoginRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[63,36] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.marketplace.dto.AuthDTO.AuthResponse
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[66,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[67,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[68,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[69,33] cannot find symbol
+[ERROR]   symbol:   method getUniversity()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[70,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[71,31] cannot find symbol
+[ERROR]   symbol:   method isVerified()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[72,29] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[80,43] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.marketplace.dto.UserDTO
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[81,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[82,27] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[83,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[84,33] cannot find symbol
+[ERROR]   symbol:   method getUniversity()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[85,29] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[86,31] cannot find symbol
+[ERROR]   symbol:   method isVerified()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[87,32] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/AuthService.java:[87,62] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable user of type com.marketplace.entity.User
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[58,31] cannot find symbol
+[ERROR]   symbol:   method getViewCount()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[68,43] cannot find symbol
+[ERROR]   symbol:   method getImages()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[79,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[80,31] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[81,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[82,34] cannot find symbol
+[ERROR]   symbol:   method getBuyPrice()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[83,40] cannot find symbol
+[ERROR]   symbol:   method getRentPriceDaily()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[84,41] cannot find symbol
+[ERROR]   symbol:   method getRentPriceWeekly()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[85,42] cannot find symbol
+[ERROR]   symbol:   method getRentPriceMonthly()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[86,42] cannot find symbol
+[ERROR]   symbol:   method isAvailableForRent()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[87,42] cannot find symbol
+[ERROR]   symbol:   method isAvailableForSale()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[88,34] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[89,35] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[89,68] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[91,30] cannot find symbol
+[ERROR]   symbol:   method getTags()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[92,34] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[105,18] cannot find symbol
+[ERROR]   symbol:   method getSeller()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[109,30] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[110,36] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[111,33] cannot find symbol
+[ERROR]   symbol:   method getBuyPrice()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[112,39] cannot find symbol
+[ERROR]   symbol:   method getRentPriceDaily()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[113,40] cannot find symbol
+[ERROR]   symbol:   method getRentPriceWeekly()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[114,41] cannot find symbol
+[ERROR]   symbol:   method getRentPriceMonthly()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[115,41] cannot find symbol
+[ERROR]   symbol:   method isAvailableForRent()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[116,41] cannot find symbol
+[ERROR]   symbol:   method isAvailableForSale()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[117,33] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[118,20] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[118,70] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[119,20] cannot find symbol
+[ERROR]   symbol:   method getImages()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[119,64] cannot find symbol
+[ERROR]   symbol:   method getImages()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[120,20] cannot find symbol
+[ERROR]   symbol:   method getTags()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[120,60] cannot find symbol
+[ERROR]   symbol:   method getTags()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[121,20] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[121,68] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.marketplace.dto.ItemDTO.CreateRequest
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[131,18] cannot find symbol
+[ERROR]   symbol:   method getSeller()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[135,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.marketplace.entity.Item.Status)
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[147,27] cannot find symbol
+[ERROR]   symbol:   method getSeller()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[148,32] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.marketplace.dto.ItemDTO.Response
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[149,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[150,28] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[151,34] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[152,31] cannot find symbol
+[ERROR]   symbol:   method getBuyPrice()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[153,37] cannot find symbol
+[ERROR]   symbol:   method getRentPriceDaily()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[154,38] cannot find symbol
+[ERROR]   symbol:   method getRentPriceWeekly()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[155,39] cannot find symbol
+[ERROR]   symbol:   method getRentPriceMonthly()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[156,39] cannot find symbol
+[ERROR]   symbol:   method isAvailableForRent()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[157,39] cannot find symbol
+[ERROR]   symbol:   method isAvailableForSale()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[158,31] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[159,32] cannot find symbol
+[ERROR]   symbol:   method getCondition()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[160,29] cannot find symbol
+[ERROR]   symbol:   method getImages()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[161,27] cannot find symbol
+[ERROR]   symbol:   method getTags()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[162,31] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[163,32] cannot find symbol
+[ERROR]   symbol:   method getViewCount()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[164,36] cannot find symbol
+[ERROR]   symbol:   method getWishlistCount()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] /C:/Users/shivakumar/Downloads/campusmarket/backend/src/main/java/com/marketplace/service/ItemService.java:[165,31] cannot find symbol
+[ERROR]   symbol:   method isFeatured()
+[ERROR]   location: variable item of type com.marketplace.entity.Item
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

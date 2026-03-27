@@ -1,0 +1,8 @@
+target/
+*.log
+*.txt
+data/
+uploads/
+.git/
+.gitignore
+*.md
