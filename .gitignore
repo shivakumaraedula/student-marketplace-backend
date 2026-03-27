@@ -1,0 +1,6 @@
+target/
+*.log
+*.txt
+*.class
+uploads/
+data/
