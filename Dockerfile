@@ -32,8 +32,6 @@ RUN mkdir -p /app/uploads && chown -R appuser:appgroup /app
 USER appuser
 
 EXPOSE 8080
-
 ENTRYPOINT ["java", \
-  "-Dspring.profiles.active=docker", \
   "-Djava.security.egd=file:/dev/./urandom", \
   "-jar", "app.jar"]
